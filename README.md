@@ -32,7 +32,7 @@ Exposed port by default is on ```8080```
 
 To customise compiled nginx package, edit ```/build/Dockerfile``` before running this script
 
-## Building Image
+### Building Image
 To build docker image, simply run docker build
 
 ``` 
