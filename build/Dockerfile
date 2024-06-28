@@ -1,23 +1,22 @@
 FROM alpine:latest
-MAINTAINER HQM <hakim@detik.com>
+MAINTAINER HQM 
 
-ENV NGINX_VERSION 1.11.2
+ENV NGINX_VERSION 1.26.0
 
 RUN	apk update		&&	\
 	apk add				\
 		git			\
 		gcc			\
-		binutils-libs		\
+		binutils-dev		\
 		binutils		\
 		gmp			\
-		isl			\
+		isl-dev			\
 		libgomp			\
 		libatomic		\
 		libgcc			\
 		openssl			\
 		pkgconf			\
 		pkgconfig		\
-		mpfr3			\
 		mpc1			\
 		libstdc++		\
 		ca-certificates		\
